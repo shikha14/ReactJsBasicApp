@@ -15,7 +15,7 @@ class App extends React.Component
                 <Header/>
                 <div className="container">
                     <Home name={"react"} age={25} extra={extra}>
-                        <h1>child 1 of home</h1>
+                        <p>child 1 of home</p>
                         <p>child 2 of home</p>
 
                     </Home>
