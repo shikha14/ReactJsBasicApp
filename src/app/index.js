@@ -12,7 +12,7 @@ class App extends React.Component
         };
         return(
             <div>
-                <Header/>
+                <Header brandName="ReactBasicApp"/>
                 <div className="container">
                     <Home name={"react"} age={25} extra={extra}>
                         <p>child 1 of home</p>
